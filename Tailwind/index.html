@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black flex flex-col min-h-screen">
+
+    <div class="container mx-auto my-8 px-4 flex-grow">
+
+        <!-- Profile Header -->
+        <div class="flex flex-col items-center md:flex-row md:items-start mb-4">
+            <div class="flex-shrink-0 md:flex-col mb-4 md:mb-0">
+                <img src="assets/img/profilepicture/profile_picture.jpg"
+                    srcset="assets/img/profilepicture/profile_picture.jpg 1x, assets/img/profilepicture/profilepicture@2x.jpg 2x"
+                    alt="Profile Picture" class="rounded-full w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-cover">
+            </div>
+            <div class="text-center md:text-left md-flex-col md:ml-4">
+                <div
+                    class="flex flex-col flex-row lg:flex-row sm:items-center justify-center md:justify-start mb-3 sm:mb-4">
+                    <h1 class="text-2xl sm:text-3xl font-semibold text-white mb-2 sm:mb-3 sm:mr-3">milanalfandiismail
+                    </h1>
+                    <div class="sm:flex md:flex gap-4 md:gap-3">
+                        <button class="bg-gray-600 text-white font-bold py-1 sm:py-1 px-4 md:px-6 rounded-lg">Edit
+                            Profile</button>
+                        <button class="bg-gray-600 text-white font-bold py-1 sm:py-1 px-4 md:px-6 rounded-lg">View
+                            Archive</button>
+                    </div>
+                </div>
+                <div class="flex justify-center md:justify-start gap-6 mb-5 sm:mb-3 text-sm text-gray-400">
+                    <span><strong>16</strong> posts</span>
+                    <span><strong>125</strong> <a href="#" class="hover:underline">followers</a></span>
+                    <span><strong>180</strong> <a href="#" class="hover:underline">following</a></span>
+                </div>
+                <div class="bio">
+                    <p class="font-bold text-sm text-white mb-1 sm:mb-0">Milan Alfandi</p>
+                    <p class="text-gray-400 mb-5 mt-5 sm:mt-0 sm:mb-0">☕</p>
+                    <a href="https://open.spotify.com/user/42mj4d65j50q9tzb7in9xv62y?si=VBVnryDxQxaxbHFZ2Dp3Qg"
+                        class="text-blue-400 hover:underline font-bold">Spotify</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stories -->
+        <div class="flex mb-4 gap-10 overflow-x-auto pb-2 object-fill">
+            <div class="story text-center text-white">
+                <a href=""><img src="assets/img/stories/sky-1.jpg" alt="Story 1"
+                        class="rounded-full w-24 h-24 object-cover border-4 border-gray-800"></a>
+                <p class="text-sm mt-1">1</p>
+            </div>
+            <div class="story text-center text-white">
+                <a href=""><img src="assets/img/stories/beach-2.jpg" alt="Story 2"
+                        class="rounded-full w-24 h-24 object-cover border-4 border-gray-800"></a>
+                <p class="text-sm mt-1">2</p>
+            </div>
+            <div class="story text-center text-white">
+                <a href=""><img src="assets/img/stories/faker-3.jpg" alt="Story 3"
+                        class="rounded-full w-24 h-24 object-cover border-4 border-gray-800"></a>
+                <p class="text-sm mt-1">3</p>
+            </div>
+            <div class="story text-center text-white">
+                <a href=""><img src="assets/img/stories/oggy-4.jpg" alt="Story 4"
+                        class="rounded-full w-24 h-24 object-cover border-4 border-gray-800"></a>
+                <p class="text-sm mt-1">4</p>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="text-center text-gray-500 my-2">
+            <h1>Posts</h1>
+        </div>
+
+        <!-- Posts -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-3 gap-3.5 sm:gap-1 md:gap-0.5 lg:gap-0">
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/3.0.jpg" srcset="assets/img/posts/3.0.jpg 1x, img/posts/3.0@2x.jpg 2x"
+                    alt="Post 1"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/iu.jpg" srcset="assets/img/posts/iu.jpg 1x, img/posts/iu@2x.jpg 2x"
+                    alt="Post 2"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/ame.jpg" srcset="assets/img/posts/ame.jpg 1x, img/posts/ame@2x.jpg 2x"
+                    alt="Post 3"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/bluedark.jpg"
+                    srcset="assets/img/posts/bluedark.jpg 1x, img/posts/bluedark@2x.jpg 2x" alt="Post 4"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/ghost.jpg"
+                    srcset="assets/img/posts/ghost.jpg 1x, assets/img/posts/ghost@2x.jpg 2x" alt="Post 5"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/forestcity.jpg"
+                    srcset="assets/img/posts/forestcity.jpg 1x, assets/img/posts/forestcity@2x.jpg 2x" alt="Post 6"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/mountain.jpg"
+                    srcset="assets/img/posts/mountain.jpg 1x, assets/img/posts/mountain@2x.jpg 2x" alt="Post 7"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/villagefarm.jpg"
+                    srcset="assets/img/posts/villagefarm.jpg 1x, assets/img/posts/villagefarm@2x.jpg 2x" alt="Post 8"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/watchman.jpg"
+                    srcset="assets/img/posts/watchman.jpg 1x, assets/img/posts/watchman@2x.jpg 2x" alt="Post 9"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/sonnyboy.jpg"
+                    srcset="assets/img/posts/sonnyboy.jpg 1x, assets/img/posts/sonnyboy@2x.jpg 2x" alt="Post 10"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/theater.jpg"
+                    srcset="assets/img/posts/theater.jpg 1x, assets/img/posts/theater@2x.jpg 2x" alt="Post 11"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/mountain-sky.jpg"
+                    srcset="assets/img/posts/mountain-sky.jpg 1x, assets/img/posts/mountain-sky@2x.jpg 2x" alt="Post 12"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/shadow.jpg"
+                    srcset="assets/img/posts/shadow.jpg 1x, assets/img/posts/shadow@2x.jpg 2x" alt="Post 13"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/unst.jpg"
+                    srcset="assets/img/posts/unst.jpg 1x, assets/img/posts/unst@2x.jpg 2x" alt="Post 14"
+                    class="h-full object-fill border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/headache.jpg"
+                    srcset="assets/img/posts/headache.jpg 1x, assets/img/posts/headache@2x.jpg 2x" alt="Post 15"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+            <div class="post m-0 p-0 h-[450px] sm:h-[400px]">
+                <img src="assets/img/posts/josee.jpg"
+                    srcset="assets/img/posts/josee.jpg 1x, assets/img/posts/josee@2x.jpg 2x" alt="Post 16"
+                    class="w-full h-full object-cover border border-black hover:scale-105 hover:shadow-lg transition-all duration-200 m-0 p-0">
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 mt-5 bg-dark-900">
+        <div class="container mx-auto text-center text-gray-400">
+            <div class="grid grid-cols-4 sm:grid-cols-4 gap-6">
+                <div>
+                    <h6 class="mb-3 text-sm"><a href="#" class="hover:underline">About Us</a></h6>
+                </div>
+                <div>
+                    <h6 class="mb-3 text-sm"><a href="#" class="hover:underline">Help</a></h6>
+                </div>
+                <div>
+                    <h6 class="mb-3 text-sm"><a href="#" class="hover:underline">Info</a></h6>
+                </div>
+                <div>
+                    <h6 class="mb-3 text-sm"><a href="#" class="hover:underline">Privacy</a></h6>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p class="text-sm text-gray-500">© 2025 Milan Alfandi Ismail</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

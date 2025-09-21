@@ -1,0 +1,91 @@
+ /* Mengatur background seluruh halaman menjadi abu-abu */
+body {
+  background-color: #000000; /* Warna abu-abu terang */
+  margin: 0;
+  font-family: Arial, sans-serif;
+ }
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Username */
+.username {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Follow Button */
+.follow-btn {
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+/* Stories */
+.story {
+    width: 80px;
+    color: #fff;
+}
+
+.story img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #dbdbdb;
+}
+
+/* Posts */
+.post {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.post img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    border :0.5px solid #000000
+}
+
+
+
+/* Footer */
+footer h5 {
+    padding-bottom: 8px; /* Padding di bawah judul */
+    margin-bottom: 15px; /* Margin bawah untuk jarak antar elemen */
+}
+footer a {
+    color: #fff; /* Warna teks putih */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+footer a:hover {
+    color: #fafafa; /* Ubah warna teks saat hover */
+    text-decoration: underline; /* Tambahkan garis bawah saat hover */
+}
+
+footer .row > .col-md-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer h6 {
+    margin-bottom: 12px; /* Memberikan jarak antar link */
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #aaa; /* Warna teks untuk copyright */
+}
