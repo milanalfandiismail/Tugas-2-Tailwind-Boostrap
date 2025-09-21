@@ -5,7 +5,7 @@
 ### 🔧 Struktur File:
 Penjelasan Struktur Folder:
 
-📁 **Folder Root: Instagram Profile Bootstrap**  
+📁 **Folder Root: Bootstrap**  
 Ini adalah folder utama tempat semua file proyek Anda disimpan. Di dalam folder ini, menyimpan semua file dan folder yang membentuk website profil Instagram menggunakan Bootstrap.
 
 📂 **assets/**  
@@ -50,3 +50,4 @@ Potensi masalah yang terjadi adalah memastikan gambar memiliki ukuran yang **kon
 
 
 Grid ini membantu untuk memastikan kolom menyesuaikan ukurannya dengan baik di berbagai ukuran layar, menjaga desain tetap responsif meski jumlah postingan bertambah banyak.
+
