@@ -31,7 +31,6 @@ Build/Run:
 Disini Menggunakan CDN sebagai run nya, disini kita hanya menaruh pada file htmlnya saja, jadi lansung ngerun cdn bootstrap tersebut 
 
 Dependensi: Bootstrap
----
 
 ## 💬 Pertanyaan README:
 
@@ -48,5 +47,6 @@ Untuk memastikan tombol **Follow** dan **Edit Profile** tetap mudah dijangkau di
 Potensi masalah yang terjadi adalah memastikan gambar memiliki ukuran yang **konsisten** agar grid tetap rapi. Solusi dari itu, kita menggunakan dari framework bootstrap yaitu fungsi dari **row** dan juga **grid**, dimana gridnya menggunakan: 
 
 `col-12 col-sm-6 col-lg-3`
+
 
 Grid ini membantu untuk memastikan kolom menyesuaikan ukurannya dengan baik di berbagai ukuran layar, menjaga desain tetap responsif meski jumlah postingan bertambah banyak.
