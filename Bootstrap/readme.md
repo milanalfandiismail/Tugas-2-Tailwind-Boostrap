@@ -6,7 +6,7 @@
 Penjelasan Struktur Folder:
 
 📁 **Folder Root: Bootstrap**  
-Ini adalah folder utama tempat semua file proyek Anda disimpan. Di dalam folder ini, menyimpan semua file dan folder yang membentuk website profil Instagram menggunakan Bootstrap.
+Ini adalah folder utama tempat semua file proyek disimpan. Di dalam folder ini, menyimpan semua file dan folder yang membentuk website profil Instagram menggunakan Bootstrap serta menyimpan file.
 
 📂 **assets/**  
 Folder ini berfungsi untuk menyimpan semua file aset yang digunakan.
@@ -18,19 +18,18 @@ Folder ini khusus digunakan untuk menyimpan gambar-gambar yang akan ditampilkan 
   Sub-folder ini menyimpan gambar-gambar yang digunakan untuk postingan.
 
   📂 **assets/img/profile_picture/**  
-  Sub-folder ini menyimpan gambar-gambar yang digunakan untuk **profile_picture**.
+  Sub-folder ini menyimpan gambar-gambar yang digunakan untuk profile_picture.
 
   📂 **assets/img/story/**  
-  Folder ini digunakan untuk gambar-gambar yang akan ditampilkan sebagai **Instagram Stories**. Gambar-gambar ini umumnya merupakan gambar sementara yang ditampilkan dalam format stories.
+  Sub-folder ini menyimpan gambar-gambar yang digunakan untuk highlight story saja.
 
 📂 **assets/css/**  
-Folder ini digunakan untuk menyimpan file-file **CSS**. Di dalam folder ini, Anda bisa memiliki file **CSS utama** untuk mendesain tampilan halaman, serta file **CSS kustom** untuk penyesuaian elemen-elemen tertentu pada halaman web Anda.
-
+Folder ini digunakan untuk menyimpan file-file **CSS**. Di dalam folder ini, memiliki file **CSS utama** untuk mendesain tampilan halaman, serta file **CSS kustom** untuk penyesuaian elemen-elemen tertentu pada halaman profil instagram.
 
 Build/Run: 
-Disini Menggunakan CDN sebagai run nya, disini kita hanya menaruh pada file htmlnya saja, jadi lansung ngerun cdn bootstrap tersebut 
+Menggunakan CDN Bootstrap untuk melakukan run
 
-Dependensi: Bootstrap
+Dependensi: Bootstrap CSS
 
 ## 💬 Pertanyaan README:
 
@@ -50,4 +49,5 @@ Potensi masalah yang terjadi adalah memastikan gambar memiliki ukuran yang **kon
 
 
 Grid ini membantu untuk memastikan kolom menyesuaikan ukurannya dengan baik di berbagai ukuran layar, menjaga desain tetap responsif meski jumlah postingan bertambah banyak.
+
 
