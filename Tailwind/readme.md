@@ -1,3 +1,5 @@
+# Tugas: Profil Instagram — Implementasi dengan Tailwind CSS
+
 ## Penjelasan Desain :
 - Desain website dengan latar belakang hitam dan teks abu-abu serta putih menciptakan kesan minimalis, elegan, dan mudah dibaca. Kontras yang dihasilkan memudahkan pengunjung untuk fokus pada konten. Kesederhanaan desain memberikan tampilan modern dan profesional, serta nyaman di mata, terutama dalam kondisi pencahayaan rendah.
 
@@ -27,3 +29,4 @@
 #### ❓ Jelaskan trade-off antara memakai banyak utility classes vs membuat component CSS tersendiri.
 
 - Pemilihan antara menggunakan utility classes atau komponen CSS bergantung pada kebutuhan dan skala proyek. Utility classes memungkinkan pengembangan yang lebih cepat dan fleksibel, ideal untuk prototyping atau proyek kecil, namun dapat membuat HTML menjadi tidak rapi dan sulit dipelihara dalam jangka panjang. Di sisi lain, komponen CSS menawarkan keuntungan dalam hal reusabilitas, modularitas, dan pemeliharaan, meskipun memerlukan lebih banyak waktu dan kode untuk implementasinya. Oleh karena itu, pendekatan yang seimbang antara keduanya sering kali menjadi solusi terbaik, di mana utility classes digunakan untuk pengaturan layout yang cepat, sementara komponen CSS digunakan untuk elemen yang membutuhkan konsistensi dan pemeliharaan lebih baik.
+
