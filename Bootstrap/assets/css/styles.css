@@ -1,6 +1,6 @@
- /* Mengatur background seluruh halaman menjadi abu-abu */
+ /* Mengatur background seluruh halaman */
 body {
-  background-color: #000000; /* Warna abu-abu terang */
+  background-color: #000000;
   margin: 0;
   font-family: Arial, sans-serif;
  }
@@ -89,3 +89,4 @@ footer p {
     font-size: 14px;
     color: #aaa; /* Warna teks untuk copyright */
 }
+
